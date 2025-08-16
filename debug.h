@@ -5,8 +5,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#define ENABLE_DEBUG_UART true
-#define ENABLE_BUFFER_DUMP true
+#define ENABLE_DEBUG_UART false
+#define ENABLE_BUFFER_DUMP false
 
 #define DEBUG_UART_SLOT TTX4_UART_SLOT_DEBUG
 #define DEBUG_UART_BAUD 921600
